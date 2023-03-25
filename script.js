@@ -72,3 +72,7 @@ $(document).ready(function(){
         }
     });
 });
+    //  my projects
+    function warning(){
+        alert("Projects are not uploaded yet....!");
+    }
