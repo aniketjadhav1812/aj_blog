@@ -11,8 +11,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="httpsc:\Users\anike\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-sandbox\workbench\workbench.html://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script
+        src="httpsc:\Users\anike\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-sandbox\workbench\workbench.html://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
 </head>
 
@@ -21,7 +23,7 @@
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
-        <div class="max-width">
+        <div class="max-width" data-aos="fade-down">
             <div class="logo"><a href="./">Portfo<span>lio.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
@@ -36,8 +38,8 @@
     </nav>
 
     <!-- home section start -->
-    <section class="home" id="home" data-aos="fade-down"  data-aos-anchor="#example-anchor">
-        <div class="max-width">
+    <section class="home" id="home">
+        <div class="max-width" data-aos="fade-down">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Aniket Jadhav</div>
@@ -47,8 +49,8 @@
     </section>
 
     <!-- about section start -->
-    <section class="about" id="about" data-aos="fade-up" >
-        <div class="max-width">
+    <section class="about" id="about">
+        <div class="max-width" data-aos="fade-up">
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
@@ -57,7 +59,7 @@
                 <div class="column right">
                     <div class="text">I'm Aniket and I'm a <span class="typing-2"></span></div>
                     <p></p>
-                    <a href="#">Download CV</a>
+                    <a href="#about" onclick="warning1()">Download CV</a>
                 </div>
             </div>
         </div>
@@ -65,18 +67,21 @@
 
 
     <!-- skills section start -->
-    <section class="skills" id="skills" data-aos="fade-up" >
-        <div class="max-width">
+    <section class="skills" id="skills">
+        <div class="max-width" data-aos="fade-up">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
-                <div class="column left" data-aos="fade-right">
+                <div class="column left" data-aos="zoom-in">
                     <div class="text">My creative skills & experiences.</div>
                     <span class="cent">Hello Everyone!</span>
-                    <p> I am Aniket.This is my first Portfolio website.I have created this portfolio website based on basic knowledge of HTML, CSS, and JavaScript.As I started web development in December 2022. So, I have experience of 3-4 months only, but I will improve myself in 4 years of IT engineering course. I also have basic knowledge of C Programming. 
+                    <p> I am Aniket.This is my first Portfolio website.I have created this portfolio website based on
+                        basic knowledge of HTML, CSS, and JavaScript.As I started web development in December 2022. So,
+                        I have experience of 3-4 months only, but I will improve myself in 4 years of IT engineering
+                        course. I also have basic knowledge of C Programming.
                     </p>
                     <a href="#skills" onclick="warning()">MY PROJECTS</a>
                 </div>
-                <div class="column right" data-aos="fade-left">
+                <div class="column right" data-aos="zoom-in">
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
@@ -84,7 +89,7 @@
                         </div>
                         <div class="line html"></div>
                     </div>
-                    <div class="bars" >
+                    <div class="bars">
                         <div class="info">
                             <span>CSS</span>
                             <span>50%</span>
@@ -106,40 +111,40 @@
 
 
     <!-- contact section start -->
-    <section class="contact" id="contact" data-aos="fade-up">
-        <div class="max-width">
+    <section class="contact" id="contact">
+        <div class="max-width" data-aos="fade-up">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
-                <div class="column left" data-aos="fade-right">
-                    <div class="text">Get in Touch</div>
-                    <p>For any inquiry, you can email me in the mail given below.</p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Aniket Jadhav</div>
+                <div class="column left">
+                    <div class="text" data-aos="fade-up">Get in Touch</div>
+                    <p data-aos="fade-up">For any inquiry, you can email me in the mail given below.</p>
+                    <div class="icons" data-aos="fade-up">
+                        <div class="row" data-aos="fade-up">
+                            <i class="fas fa-user" data-aos="fade-up"></i>
+                            <div class="info" data-aos="fade-up">
+                                <div class="head" data-aos="fade-up">Name</div>
+                                <div class="sub-title" data-aos="fade-up">Aniket Jadhav</div>
                             </div>
                         </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
+                        <div class="row" data-aos="fade-up">
+                            <i class="fas fa-map-marker-alt" data-aos="fade-up"></i>
                             <div class="info">
-                                <div class="head">Address</div>
+                                <div class="head" data-aos="fade-up">Address</div>
                                 <div class="sub-title">Latur, Maharashatra</div>
                             </div>
                         </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
+                        <div class="row" data-aos="fade-up">
+                            <i class="fas fa-envelope" data-aos="fade-up"></i>
                             <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">aniketjadhav25439@gmail.com</div>
+                                <div class="head" data-aos="fade-up">Email</div>
+                                <div class="sub-title" data-aos="fade-up">aniketjadhav25439@gmail.com</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="column right" data-aos="fade-left">
-                    <div class="text">Message me</div>
-                    <form action="#">
+                <div class="column right">
+                    <div class="text" data-aos="zoom-in">Message me</div>
+                    <form action="#" data-aos="zoom-in">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>

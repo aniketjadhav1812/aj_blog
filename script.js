@@ -76,3 +76,6 @@ $(document).ready(function(){
     function warning(){
         alert("Projects are not uploaded yet....!");
     }
+    function warning1(){
+        alert("               Sorry....!\n CV is not uploaded yet...!");
+    }
