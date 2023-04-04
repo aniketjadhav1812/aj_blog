@@ -34,6 +34,7 @@ $(document).ready(function(){
         backSpeed: 40,
         loop: true
     });
+    
     var typed = new Typed(".typing-2", {
         strings: ["Student", "Coder", "Developer"],
         typeSpeed: 40,
