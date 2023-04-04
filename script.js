@@ -34,6 +34,30 @@ $(document).ready(function(){
         backSpeed: 40,
         loop: true
     });
+    .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid crimson !important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: crimson !important;
+}
 
     var typed = new Typed(".typing-2", {
         strings: ["Student", "Coder", "Developer"],
