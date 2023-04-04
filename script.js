@@ -47,4 +47,4 @@ $(document).ready(function(){
     }
     function warning1(){
         alert("               Sorry....!\n CV is not uploaded yet...!");
-    }
+   }
